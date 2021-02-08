@@ -37,5 +37,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DeviceParts
 
+# Kernel
+$(call inherit-product, device/xiaomi/lmi-kernel/kernel.mk)
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/lmi/lmi-vendor.mk)
