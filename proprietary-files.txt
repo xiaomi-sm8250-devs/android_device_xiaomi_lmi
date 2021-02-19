@@ -359,6 +359,9 @@ vendor/bin/batterysecret
 vendor/etc/init/init.batteryd.rc
 vendor/etc/init/init.batterysecret.rc
 
+# Display
+vendor/lib64/hw/displayfeature.default.so
+
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
