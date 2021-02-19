@@ -353,6 +353,12 @@ vendor/lib64/libmivendor_module_hall.so
 vendor/lib64/libmivendor_module_motor.so
 vendor/lib64/mi.motor.daemon.so
 
+# Charger
+vendor/bin/batteryd
+vendor/bin/batterysecret
+vendor/etc/init/init.batteryd.rc
+vendor/etc/init/init.batterysecret.rc
+
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
