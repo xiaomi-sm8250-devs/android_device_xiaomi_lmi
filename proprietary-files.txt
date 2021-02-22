@@ -354,9 +354,7 @@ vendor/lib64/libmivendor_module_motor.so
 vendor/lib64/mi.motor.daemon.so
 
 # Charger
-vendor/bin/batteryd
 vendor/bin/batterysecret
-vendor/etc/init/init.batteryd.rc
 vendor/etc/init/init.batterysecret.rc
 
 # Display
