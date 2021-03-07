@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Popup camera settings -->
+    <string name="popup_led_title">视觉效果</string>
+    <string name="popup_led_summary">前置相机弹出和收回灯光效果</string>
+    <string name="popup_title">前置相机效果</string>
+    <string name="popup_title_muqin">木琴</string>
+    <string name="popup_title_yingyan">鹰眼</string>
+    <string name="popup_title_mofa">魔法</string>
+    <string name="popup_title_jijia">机甲</string>
+    <string name="popup_title_chilun">齿轮</string>
+    <string name="popup_title_cangmen">舱门</string>
+
+    <!-- Popup camera strings -->
+    <string name="popup_camera_tip">警告</string>
+    <string name="popup_camera_takeback_failed_times_calibrate">多次尝试收回相机失败，尝试校正相机。</string>
+    <string name="popup_camera_popup_failed_times_calibrate">多次尝试弹出相机失败，尝试校正相机。</string>
+    <string name="popup_camera_calibrate_running">校正相机时无法使用相机</string>
+    <string name="popup_camera_calibrate_now">校正</string>
+    <string name="popup_camera_calibrate_failed">无法校正</string>
+    <string name="popup_camera_calibrate_success">校正成功，可以使用前置相机了</string>
+    <string name="stop_operate_camera_frequently">开启前置相机太频繁！</string>
+    <string name="takeback_camera_front_failed">无法收回前置相机，请重试</string>
+    <string name="popup_camera_front_failed">无法打开前置相机，请重试</string>
+</resources>
