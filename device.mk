@@ -34,6 +34,13 @@ PRODUCT_PACKAGES += \
     libMegviiFacepp-0.5.2 \
     libmegface
 
+# Camera motor
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.motor@1.0-service.xml
+
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.motor@1.0.vendor
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.barometer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.barometer.xml
