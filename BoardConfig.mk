@@ -22,7 +22,7 @@ TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_lmi
 TARGET_KERNEL_CONFIG += vendor/xiaomi/lmi.config
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := lmi,lmipro
+TARGET_OTA_ASSERT_DEVICE := lmi
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
