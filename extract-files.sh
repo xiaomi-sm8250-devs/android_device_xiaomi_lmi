@@ -20,6 +20,9 @@ function blob_fixup() {
 LEGACY_MIFARE_READER=1
 EOF
             ;;
+        vendor/lib/hw/audio.primary.lmi.so)
+            sed -i "s|/vendor/lib/liba2dpoffload\.so|liba2dpoffload_lmi\.so\x00\x00\x00\x00\x00\x00\x00\x00" "${2}"
+            ;;
         vendor/lib64/camera/components/com.mi.node.watermark.so)
             "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
             ;;
